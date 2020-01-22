@@ -1,0 +1,247 @@
+/*---------------------------------------------------
+Red stylesheet will overwrite the default stylesheet
+-----------------------------------------------------
+*/
+a { color: #e3001c}
+.red .banner-logo {
+	background: none;
+}
+.red .tcount {
+	color: #e3001c;
+}
+.red .count-data .text {
+	color: #ffffff;
+}
+.red .section_count svg circle{
+    stroke: #e3001c;
+}
+.red .nav-block,
+.red .nav-block .navbar-default {
+    background: #e3001c;
+}
+.red .heading h3 {
+    color: #e3001c;
+}
+.red .heading h3::before {
+    content: url(../../../images/red/red_heading_left.png);
+}
+.red .heading h3::after {
+    content: url(../../../images/red/red_heading_right.png);
+}
+#background-carousel .item-no1 {
+  background: url(../../../images/slider/slider-1.jpg) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+#background-carousel .item-no2 {
+  background: url(../../../images/slider/slider-2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#background-carousel .item-no3 {
+  background: url(../../../images/slider/slider-3.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.red .thumb-img {
+	border-color: #e3001c;
+}
+.red .couple {
+	background: url(../../../images/red/red_love_twist.png) no-repeat 50% 65%;
+}
+.red #story .fa {
+	color: #e1704b;
+}
+.red .love-sign {
+	background: url(../../../images/red/red_love.png) no-repeat center center;
+}
+.red .timeline-head {
+	background: #e3001c;
+}
+.red .timeline-block-right:before {
+	border-color: transparent #e3001c transparent transparent;
+}
+.red .reverse .timeline-block-right:after {
+	border-color: transparent transparent transparent #e3001c;
+}
+.red .timeline:before {
+	background: #e3001c;
+}
+.red .contact .default-btn:hover {
+	background: #e3001c;
+	color: #fff;
+}
+.red .default-btn:hover {
+	background: #e3001c;
+}
+.red .profile h5 {
+    color: #e3001c;
+}
+.red .people .social-icon li .fa {
+	color: #e3001c;
+}
+.red .event-body h5 a {
+	color:#e3001c;
+}
+.red .event-date {
+	background: #e3001c;
+}
+.red .event-year {
+	color: #f6f6f6;
+}
+.red .gift-block:hover, .red .gift-block.active {
+	border-color: #e3001c; 
+}
+.red .blog-head h5 {
+	color: #f64b74;
+}
+.red .blog-link {
+	color: #e3001c;
+}
+.red blockquote:before {
+    background: url(../../../images/red/red_block_qoute_left.png) no-repeat;
+}
+.red blockquote:after {
+    background: url(../../../images/red/red_block_qoute_right.png) no-repeat;
+}
+.red .contact h5 {
+	color: #e3001c;
+}
+.red .contact-address ul li .fa {
+    color: #e3001c;
+}
+.red .contact .form-control, .red .contact textarea {
+    border:1px solid #e3001c;
+}
+.red .sbHolder {
+	border:1px solid #e3001c;
+}
+.red .footer-logo {
+    background: url(../../../images/red/red_footer_logo.png) no-repeat center center;
+}
+.red footer a .fa:hover {
+	background-color: #e3001c;
+	border: 1px solid #e3001c;
+}
+.red .nav-pills > li.current > a {
+	color: #e3001c;
+}
+.red .sbToggle {
+	color: #e3001c;
+}
+.red .contact .default-btn {
+   border: 1px solid #e3001c;
+    background-color: #e3001c;
+}
+.red .next-arrow a {
+   color: #e3001c
+}
+
+/** Blog Signle Page**/
+.red .single-blog-upper h3 {
+    color: #e3001c;
+}
+.red .sidebar-single-post h5 {
+    color: #e3001c;
+}
+.red .popular-post h5:before, .red .wedding-video h5:before {
+   background: #e3001c;
+}
+
+.red .single-blog-detail blockquote {
+	background: #FE89C5;
+}
+.red .single-blog-detail blockquote:before {
+	background: url("../../../images/red/red_qoute_left.png") no-repeat center center;
+}
+.red .single-blog-detail blockquote:after {
+	background: url("../../../images/red/red_qoute_right.png") no-repeat center center;
+}
+.red .single-post-item li .fa {
+	background: #e3001c;
+}
+.red .single-blog-lower h4 {
+    color: #e3001c;
+}
+.red .single-blog-lower, .red .comment-block, .red .reply-block {
+	border-color: #e3001c;
+}
+.red .comment-block > h5, .red .reply-block h5 {
+    color: #e3001c;
+}
+.red .comment-block .default-btn {
+	background: #FE89C5;
+	border: 1px solid #FE89C5;
+}
+.red .comment-block .default-btn:hover {
+	color: #e3001c;
+}
+
+/** Media Query **/
+
+@media screen and (max-width: 480px) {
+	.red .banner-logo {
+		width: 260px;
+		height: 305px;
+		padding: 110px 0;
+		margin: 40px 0 32px;
+	}
+	.red .banner-logo h2 {
+		font-size: 32px;
+	}
+	.red .heading h3::after {
+		content: url(../../../images/red/red_heading_right_responsive.png);
+		width: 50px;
+		height: 23px;
+		right: -60px;
+	}
+	.red .heading h3::before {
+		content: url(../../../images/red/red_heading_left_responsive.png);
+		width: 50px;
+		height: 23px;
+		left: -60px;
+	}
+
+}
+.v3-home .color-overlay-bg {
+    background-color: #e3001c;
+    opacity: 0.33;
+}
+.red .thumb-hover{
+    background-color: rgba(227, 0, 28, 0.33);
+}
+.gallery .default-btn{
+    margin-top: 45px;
+    background-color: #e3001c;
+    border-color: #e3001c !important;
+}
+.gallery .default-btn:focus, .gallery .default-btn:visited{
+    color: #ffffff;
+    outline: none;
+}
+
+.our-day {
+	background: url(../../../images/bg/main_event_bg.jpg) no-repeat fixed center center;
+}
+.our-day .color-overlay {
+	background: rgba(0,0,0,.7);
+	padding: 70px 0;
+}
+.ourday-title {
+    font-family: 'Lobster', cursive;
+    display: block;
+	
+    color: #fff;
+    font-size: 40px;
+    line-height: normal;
+    margin-bottom: 25px;
+    letter-spacing: 0.025em;
+}
+
+
