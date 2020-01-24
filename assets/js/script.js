@@ -223,7 +223,7 @@ $(document).ready(function () {
 	var next_post = 0;
 	
 	const database = firebase.database();
-	const commentRef = firebase.database().ref('comments');
+	const commentRef = firebase.database().ref('rahulComments');
 	
     $('.contact_form').on('submit', function (event) {
         event.preventDefault();
