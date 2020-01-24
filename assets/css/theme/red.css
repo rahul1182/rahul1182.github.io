@@ -49,6 +49,20 @@ a { color: #e3001c}
   -o-background-size: cover;
   background-size: cover;
 }
+#background-carousel .item-no4 {
+  background: url(../../../images/slider/slider-4.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#background-carousel .item-no5 {
+  background: url(../../../images/slider/slider-5.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .red .thumb-img {
 	border-color: #e3001c;
 }
